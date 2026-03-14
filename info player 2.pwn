@@ -1,9 +1,3 @@
-/*
-	#inc <TaxxxQwert>
-	#dc  <https://discord.gg/3B4TDC5DMb>
-	#pub <TaxxxQwerty>
-*/
-
 #include <a_samp>
 
 new HudUiActive[MAX_PLAYERS];
@@ -487,7 +481,7 @@ public OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, HUDSTATETD[playerid][1], 1);
 	PlayerTextDrawSetSelectable(playerid, HUDSTATETD[playerid][1], 0);
 
-	HUDSTATETD[playerid][2] = CreatePlayerTextDraw(playerid, 607.000000, 162.000000, "Taxxx_Extream");
+	HUDSTATETD[playerid][2] = CreatePlayerTextDraw(playerid, 607.000000, 162.000000, "Tes_Ting");
 	PlayerTextDrawFont(playerid, HUDSTATETD[playerid][2], 1);
 	PlayerTextDrawLetterSize(playerid, HUDSTATETD[playerid][2], 0.112498, 1.049998);
 	PlayerTextDrawTextSize(playerid, HUDSTATETD[playerid][2], 637.500000, 17.000000);
